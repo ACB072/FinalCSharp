@@ -19,21 +19,6 @@ using FCSharp.SNP;
 public class Program{
     private static void Main(string[] args){
 
-        ABisiesto.AnyoBisiesto anyoBisiesto=new ABisiesto.AnyoBisiesto();
-        AN.AdivinarNumero adivinarNumero= new AN.AdivinarNumero();
-        ANGR.Anagrama anagrama = new ANGR.Anagrama();
-        AVC.AreaVolumenCubo areaVolumenCubo= new AVC.AreaVolumenCubo();
-        Cap.Capicua capicua= new Cap.Capicua();
-        ElDup.EliminarDuplicados eliminarDuplicados=new ElDup.EliminarDuplicados();
-        Fact.Factorial factorial= new Fact.Factorial();
-        LOrdenada.ListaOrdenada listaOrdenada= new LOrdenada.ListaOrdenada();
-        MLista.MediaLista mediaLista= new MLista.MediaLista();
-        MyM.MenorMayor menorMayor = new MyM.MenorMayor();
-        NPNC.NumeroPositivoNegativoCero numeroPositivoNegativoCero= new NPNC.NumeroPositivoNegativoCero();
-        NPrimo.NumeroPrimo numeroPrimo = new NPrimo.NumeroPrimo();
-        Pal.Palindromo palindromo = new Pal.Palindromo();
-        ParImp.ParImpar parImpar= new ParImp.ParImpar();
-        SNP.SumaNumerosPares sumaNumeros= new SNP.SumaNumerosPares();
 
         int opcion=0;
         bool salida=false;
@@ -64,53 +49,56 @@ public class Program{
             WriteLine("============================");
             switch(opcion){
                 case 1: 
-                    menorMayor.main();
+                    new MyM.MenorMayor().main();
                     break;
                 case 2:
-                    parImpar.main(); 
+                    new ParImp.ParImpar().main(); 
                     break;
                 case 3:
-                    anyoBisiesto.main(); 
+                    new ABisiesto.AnyoBisiesto().main(); 
                     break;
                 case 4:
-                    palindromo.main();
+                    new Pal.Palindromo().main();
                     break;
                 case 5:
-                    listaOrdenada.main();
+                    new LOrdenada.ListaOrdenada().main();
                     break;
                 case 6:
-                    factorial.main();
+                    new Fact.Factorial().main();
                     break;
                 case 7:
-                    numeroPrimo.main();
+                    new NPrimo.NumeroPrimo().main();
                     break;
                 case 8: 
-                    areaVolumenCubo.main();
+                    new AVC.AreaVolumenCubo().main();
                     break;
                 case 9: 
-                    sumaNumeros.main();
+                    new SNP.SumaNumerosPares().main();
                     break;
                 case 10:
-                    numeroPositivoNegativoCero.main();
+                    new NPNC.NumeroPositivoNegativoCero().main();
                     break;
                 case 11: 
-                    mediaLista.main();
+                    new MLista.MediaLista().main();
                     break;
                 case 12:
-                    adivinarNumero.main();
+                    new AN.AdivinarNumero().main();
                     break;
                 case 13:
-                    anagrama.main();
+                    new ANGR.Anagrama().main();
                     break;
                 case 14:
-                    eliminarDuplicados.main();
+                    new ElDup.EliminarDuplicados().main();
                     break;
                 case 15: 
-                    capicua.main();
+                    new Cap.Capicua().main();
                     break;
                 case 0:
                     WriteLine("Adios ;)");
                     salida=true;
+                    break;
+                default:
+                    WriteLine("Opcion Erronea");
                     break;
                 
             }
