@@ -10,6 +10,8 @@ public class AreaVolumenCubo{
         if (!double.TryParse(ReadLine(), out lado))
         {
             WriteLine("Lado invalido");
+            WriteLine("Pulse Cualquier tecla para continuar...");
+            ReadKey();
             return;
         }
 

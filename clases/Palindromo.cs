@@ -8,6 +8,8 @@ public class Palindromo{
         if (texto == null)
         {
             Write("Texto invalido");
+            WriteLine("Pulse Cualquier tecla para continuar...");
+            ReadKey();
             return;
         }
         texto = texto.ToLower().Replace(" ", "");

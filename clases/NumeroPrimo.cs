@@ -10,6 +10,8 @@ public class NumeroPrimo{
         if (!int.TryParse(ReadLine(), out num))
         {
             WriteLine("Número invalido");
+            WriteLine("Pulse Cualquier tecla para continuar...");
+            ReadKey();
             return;
         }
 

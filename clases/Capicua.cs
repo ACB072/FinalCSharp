@@ -8,6 +8,8 @@ public class Capicua{
         if (!int.TryParse(ReadLine(), out num))
         {
             WriteLine("Número invalido");
+            WriteLine("Pulse Cualquier tecla para continuar...");
+            ReadKey();
             return;
         }
         int originalNum = num;
@@ -28,5 +30,7 @@ public class Capicua{
         {
             Console.WriteLine("El número no es capicúa.");
         }
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }

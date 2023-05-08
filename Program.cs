@@ -24,6 +24,7 @@ public class Program{
         bool salida=false;
         
         while(!salida){
+            Clear();
             WriteLine("============================");
             WriteLine("Menu:");
             WriteLine("============================");

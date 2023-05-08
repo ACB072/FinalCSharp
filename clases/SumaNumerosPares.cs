@@ -3,9 +3,18 @@ using static System.Console;
 namespace FCSharp.SNP;
 public class SumaNumerosPares{
     public void main(){
-        List<int> numeros = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        //Aqui
+        List<int> numeros = new List<int>() {};
         int suma = 0;
-
+        while(true){
+            Write("Ingrese un numero entero positivo a la lista, introduzca un numero negativo para terminar: ");
+            int num=Convert.ToInt32(ReadLine());
+            if(num<0){
+                break;
+            }else{
+                numeros.Add(num);
+            }
+        }
         foreach (int num in numeros)
         {
             if (num % 2 == 0)

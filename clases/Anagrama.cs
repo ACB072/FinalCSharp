@@ -1,10 +1,16 @@
 using static System.Console;
 namespace FCSharp.ANGR;
 public class Anagrama{
+    //Aqui
     public void main(){
-        string palabra1 = "roma";
-        string palabra2 = "amor";
 
+        string palabra1;
+        string palabra2 = "amor";
+        Write("Ingrese la primera palabra: ");
+            palabra1=ReadLine();
+        Write("Ingrese la segunda palabra: ");
+            palabra2=ReadLine();
+            
         char[] letras1 = palabra1.ToLower().ToCharArray();
         char[] letras2 = palabra2.ToLower().ToCharArray();
 
