@@ -19,6 +19,7 @@ public class NumeroPositivoNegativoCero{
         else
             WriteLine("{0} es cero", num);
 
+        WriteLine("Pulse Cualquier tecla para continuar...");
         ReadKey();
     }
 }

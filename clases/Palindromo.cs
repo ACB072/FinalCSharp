@@ -29,5 +29,7 @@ public class Palindromo{
         {
             WriteLine("La cadena no es un palíndromo");
         }
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }

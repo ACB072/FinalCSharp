@@ -12,7 +12,9 @@ public class ListaOrdenada{
         foreach (string nombre in nombres)
         {
             WriteLine(nombre);
-        }    
+        } 
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();   
     }
     
 }

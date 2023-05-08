@@ -18,5 +18,7 @@ public class ParImpar{
         {
             WriteLine("Ha entrado un número erroneo");
         }
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }

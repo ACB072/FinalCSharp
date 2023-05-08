@@ -6,5 +6,7 @@ public class MediaLista{
         int[] numeros = { 10, 20, 30, 40, 50 };
         double media = numeros.Average();
         WriteLine("La media es: " + media);
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }

@@ -19,6 +19,7 @@ public class Factorial{
         else
             WriteLine("Número inválido");
 
+        WriteLine("Pulse Cualquier tecla para continuar...");
         ReadKey();
     }
 }

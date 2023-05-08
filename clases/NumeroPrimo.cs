@@ -26,6 +26,8 @@ public class NumeroPrimo{
             WriteLine("{0} es un número primo", num);
         else
             WriteLine("{0} no es un número primo", num);
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
         
 }
