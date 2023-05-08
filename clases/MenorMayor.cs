@@ -27,16 +27,16 @@ public class MenorMayor{
         }        
         foreach (int numero in numeros)
         {
-            if(numero!=null){
-                if (numero > mayor)
-                {
-                    mayor = numero;
-                }
-                if (numero < menor)
-                {
-                    menor = numero;
-                }
+           
+            if (numero > mayor)
+            {
+                mayor = numero;
             }
+            if (numero < menor)
+            {
+                menor = numero;
+            }
+            
             
         }
 
