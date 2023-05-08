@@ -49,49 +49,49 @@ public class Program{
             WriteLine("============================");
             switch(opcion){
                 case 1: 
-                    new MyM.MenorMayor().main();
+                    new MenorMayor().main();
                     break;
                 case 2:
-                    new ParImp.ParImpar().main(); 
+                    new ParImpar().main(); 
                     break;
                 case 3:
-                    new ABisiesto.AnyoBisiesto().main(); 
+                    new AnyoBisiesto().main(); 
                     break;
                 case 4:
-                    new Pal.Palindromo().main();
+                    new Palindromo().main();
                     break;
                 case 5:
-                    new LOrdenada.ListaOrdenada().main();
+                    new ListaOrdenada().main();
                     break;
                 case 6:
-                    new Fact.Factorial().main();
+                    new Factorial().main();
                     break;
                 case 7:
-                    new NPrimo.NumeroPrimo().main();
+                    new NumeroPrimo().main();
                     break;
                 case 8: 
-                    new AVC.AreaVolumenCubo().main();
+                    new AreaVolumenCubo().main();
                     break;
                 case 9: 
-                    new SNP.SumaNumerosPares().main();
+                    new SumaNumerosPares().main();
                     break;
                 case 10:
-                    new NPNC.NumeroPositivoNegativoCero().main();
+                    new NumeroPositivoNegativoCero().main();
                     break;
                 case 11: 
-                    new MLista.MediaLista().main();
+                    new MediaLista().main();
                     break;
                 case 12:
-                    new AN.AdivinarNumero().main();
+                    new AdivinarNumero().main();
                     break;
                 case 13:
-                    new ANGR.Anagrama().main();
+                    new Anagrama().main();
                     break;
                 case 14:
-                    new ElDup.EliminarDuplicados().main();
+                    new EliminarDuplicados().main();
                     break;
                 case 15: 
-                    new Cap.Capicua().main();
+                    new Capicua().main();
                     break;
                 case 0:
                     WriteLine("Adios ;)");
