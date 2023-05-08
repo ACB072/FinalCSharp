@@ -8,7 +8,7 @@ public class ListaOrdenada{
         int cont=0;
         while(true){
             Write("Ingrese un nombre a la lista,escriba FIN para terminar: ");
-            string nombre=ReadLine();
+            string? nombre=ReadLine();
             
             if(nombre.ToLower()=="fin"){
                 break;
