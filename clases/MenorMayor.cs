@@ -21,6 +21,8 @@ public class MenorMayor{
 
         WriteLine("El mayor número es: " + mayor);
         WriteLine("El menor número es: " + menor);
+        WriteLine("Pulse Cualquier tecla para continuar...");
         ReadLine();
+
     }
 }
