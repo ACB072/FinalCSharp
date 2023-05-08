@@ -10,7 +10,7 @@
   - `Abrir el proyecto en Visual Code`
   - `dotnet run`
 # Descripcion:
-    - .NET 7.0 Requerido
+- .NET 7.0 Requerido
 
     Dado el codigo otorgado realizar:
 
