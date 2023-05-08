@@ -12,7 +12,7 @@
 # Descripcion:
 - .NET 7.0 Requerido
 
-    Dado el codigo otorgado realizar:
+    - Dado el codigo otorgado realizar:
 
     1. Corregir errores en tiempo de ejecución (Si los hay)
 
