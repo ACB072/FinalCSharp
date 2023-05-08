@@ -1,5 +1,4 @@
 # FinalCSharp
-C# Final Test
 # Descripcion:
     ## .NET 7.0 Requerido
 
