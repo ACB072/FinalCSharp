@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.Pal;
 public class Palindromo{
-    public static void Main(string[] args){
+    public void main(){
         Write("Ingrese una palabra o frase: ");
         string? texto = ReadLine();
         if (texto == null)

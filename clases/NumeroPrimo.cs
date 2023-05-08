@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.NPrimo;
 public class NumeroPrimo{
-    public static void Main(string[] args){
+    public void main(){
         int num = 0, i;
         bool esPrimo = true;
 

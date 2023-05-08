@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.MyM;
 public class MenorMayor{
-    public static void Main(string[] args){
+   public void main(){
             int[] numeros = { 5, 3, 8, 1, 7, 2 };
         int mayor = numeros[0];
         int menor = numeros[0];

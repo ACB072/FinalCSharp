@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.ABisiesto;
 public class AnyoBisiesto{
-    public static void Main(string[] args){
+    public void main(){
         Write("Ingrese un año: ");
         int anio = 0;
         if (int.TryParse(ReadLine(), out anio))
@@ -16,5 +17,7 @@ public class AnyoBisiesto{
             }
         else
             WriteLine("Ha entrado un año incorrecto");
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }

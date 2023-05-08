@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.Fact;
 public class Factorial{
-    public static void Main(string[] args){
+    public void main(){
         int num = 0, factorial = 1;
 
         Write("Introduce un número entero positivo: ");

@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.AN;
 public class AdivinarNumero{
-    public static void Main(string[] args){
+    public void main(){
         Random random = new Random();
         int numeroAleatorio = random.Next(1, 101);
         int intentos = 0;
@@ -28,5 +29,8 @@ public class AdivinarNumero{
         }
 
         WriteLine("¡Has acertado el número en " + intentos + " intentos!");
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
+    
 }    

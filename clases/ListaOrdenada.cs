@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.LOrdenada;
 public class ListaOrdenada{
-    public static void Main(string[] args){
+    public void main(){
         string[] nombres = { "Juan", "Maria", "Ana", "Pedro" };
 
         Array.Sort(nombres);

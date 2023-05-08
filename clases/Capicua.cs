@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.Cap;
 public class Capicua{
-    public static void Main(string[] args){
+    public void main(){
         Console.Write("Ingresa un número: ");
         int num = 0;
         if (!int.TryParse(ReadLine(), out num))

@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.NPNC;
 public class NumeroPositivoNegativoCero{
-    public static void Main(string[] args){
+    public void main(){
         int num;
 
         Write("Introduce un número entero: ");

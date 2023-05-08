@@ -1,7 +1,7 @@
 using static System.Console;
-
+namespace FCSharp.ANGR;
 public class Anagrama{
-    public static void Main(string[] args){
+    public void main(){
         string palabra1 = "roma";
         string palabra2 = "amor";
 
@@ -21,5 +21,7 @@ public class Anagrama{
         {
             WriteLine(palabra1 + " y " + palabra2 + " no son anagramas.");
         }
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }

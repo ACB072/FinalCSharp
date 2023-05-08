@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.SNP;
 public class SumaNumerosPares{
-    public static void Main(string[] args){
+    public void main(){
         List<int> numeros = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     int suma = 0;
 

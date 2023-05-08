@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.ParImp;
 public class ParImpar{
-    public static void Main(string[] args){
+    public void main(){
         int numero = 0;
         Write("Ingrese un número entero: ");
         if (int.TryParse(ReadLine(), out numero))

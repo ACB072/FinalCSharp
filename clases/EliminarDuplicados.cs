@@ -1,7 +1,8 @@
 using static System.Console;
 
+namespace FCSharp.ElDup;
 public class EliminarDuplicados{
-    public static void Main(string[] args){
+    public void main(){
         List<int> numeros = new List<int>() { 10, 20, 30, 20, 50 };
 
         List<int> numerosSinDuplicados = new List<int>();
@@ -16,5 +17,7 @@ public class EliminarDuplicados{
 
         WriteLine("Números originales: " + string.Join(", ", numeros));
         WriteLine("Números originales: " + string.Join(", ", numeros));
+        WriteLine("Pulse Cualquier tecla para continuar...");
+        ReadKey();
     }
 }
