@@ -1,10 +1,4 @@
-# Martes 9 de Mayo de 2023
-
-## Azure
-
-Trabajo previo final CSharp
-
-Revisión por parejas de los ejercicios de ayer
+Revisión 
 
 1) Descargar (clonar) el repositorio
 
@@ -12,8 +6,8 @@ Revisión por parejas de los ejercicios de ayer
 
 3. Comprobar en la construcción: `dotnet build`
 
-   - [ ] 0 Errores 
-   - [ ] 0 Advertencias (warnings) 
+   - [X] 0 Errores 
+   - [X] 0 Advertencias (warnings) 
 
 4) Probar cada una de las 15 opciones:
 
@@ -23,29 +17,29 @@ Revisión por parejas de los ejercicios de ayer
 
    3. Año Bisiesto
 
-   - [ ] Primera locomotora a vapor 1804 V
-   - [ ] Hundimiento del Titanic 1912 V
-   - [ ] Descubrimiento de la Penicilina 1928 V
-   - [ ] Inicio de la Guerra civil española 1936 V
-   - [ ] El asesinato de Gandhi 1948 V
-   - [ ] Las protestas en México, la Primavera de Praga, las movilizaciones de mayo en París o el movimiento en contra de la Guerra de Vietnam 1968 V
-   - [ ] Juegos Olimpicos de Atlanta 1996 V
-   - [ ] Constitución Española 1978 X
-   - [ ] Inicio de la democracia en España 1977X
-   - [ ] Independencia de los Estados Unidos de America, 1776 V
+   - [X] Primera locomotora a vapor 1804 
+   - [X] Hundimiento del Titanic 1912 
+   - [X] Descubrimiento de la Penicilina 1928 
+   - [X] Inicio de la Guerra civil española 1936 
+   - [X] El asesinato de Gandhi 1948 
+   - [X] Las protestas en México, la Primavera de Praga, las movilizaciones de mayo en París o el movimiento en contra de la Guerra de Vietnam 1968 
+   - [X] Juegos Olimpicos de Atlanta 1996 
+   - [X] Constitución Española 1978 
+   - [X] Inicio de la democracia en España 1977
+   - [X] Independencia de los Estados Unidos de America, 1776 
 
    4. Palindromo
 
-   - [ ] "Ana lava lana" V
-   - [ ] "La ruta natural" V
-   - [ ] "A mamá Roma le aviva el amor a papá y a papá Roma le aviva el amor a mamá" V
-   - [ ] "Yo de lo minimo le doy"X
-   - [ ] "Amor a Roma" V
-   - [ ] "Somos o no somos" V
-   - [ ] "La tele letal"V
-   - [ ] "A ti no, bonita" V
-   - [ ] "Oí lo de mamá: me dolió" V
-   - [ ] "Anita atina".V
+   - [X] "Ana lava lana" 
+   - [X] "La ruta natural" 
+   - [X] "A mamá Roma le aviva el amor a papá y a papá Roma le aviva el amor a mamá" 
+   - [X] "Yo de lo minimo le doy"
+   - [X] "Amor a Roma" 
+   - [X] "Somos o no somos" 
+   - [X] "La tele letal"
+   - [X] "A ti no, bonita" 
+   - [X] "Oí lo de mamá: me dolió" 
+   - [X] "Anita atina".
 
    5. Ordenar Lista   
    6. Factorial
@@ -57,61 +51,61 @@ Revisión por parejas de los ejercicios de ayer
    12. Adivinar Numero
    13. Anagrama
 
-   - [ ] "Amor" y "Roma" V
+   - [X] "Amor" y "Roma" V
  
-   - [ ] "Ratón" y "troná" V
+   - [X] "Ratón" y "troná" V
 
-   - [ ] "Arte" y "trea" V
+   - [X] "Arte" y "trea" V
 
-   - [ ] "Roma" y "amor" V
+   - [X] "Roma" y "amor" V
 
-   - [ ] "Mora" y "ramo" V
+   - [X] "Mora" y "ramo" V
 
-   - [ ] "Salud" y "ludas" v
+   - [X] "Salud" y "ludas" v
 
-   - [ ] "Té" y "et" v
+   - [X] "Té" y "et" v
 
-   - [ ] "Mar" y "ram" v
+   - [X] "Mar" y "ram" v
 
-   - [ ] "Después" y "sedupés" V
+   - [X] "Después" y "sedupés" V
 
-   - [ ] "El ojo" y "lojeo" V
+   - [X] "El ojo" y "lojeo" V
 
-   - [ ] "Vida" y "diva" V
+   - [X] "Vida" y "diva" V
 
-   - [ ] "Museo" y "sumeo" V
+   - [X] "Museo" y "sumeo" V
 
-   - [ ] "Cine" y "nice" V
+   - [X] "Cine" y "nice" V
 
-   - [ ] "Casa" y "saca". V
+   - [X] "Casa" y "saca". V
   
    14. Eliminar Duplicados
    15. Capicua
-   - [ ] 1001
+   - [X] 1001
 
-   - [ ] 1111
+   - [X] 1111
 
-   - [ ] 1221
+   - [X] 1221
 
-   - [ ] 1331
+   - [X] 1331
 
-   - [ ] 1441
+   - [X] 1441
 
-   - [ ] 1551
+   - [X] 1551
 
-   - [ ] 1661
+   - [X] 1661
 
-   - [ ] 1771
+   - [X] 1771
 
-   - [ ] 1881
+   - [X] 1881
 
-   - [ ] 1991 
+   - [X] 1991 
 ### Notas:
 
-Autor: Nombres y Apellidos
+Autor: VICTOR MANUEL PEREZ ROSA
 
 Observaciones: 
 
-Todo bien! pero hay warning en VS pero no cuando hacemos build. Quiza sea algo del VS.
+Todo bien! Encontramos unos warnings debido al control de valores nulos y los solucionamos poerfectamente añadiendo un condicional que cuando detectase valores nulos avisase al usuario.
 
 
