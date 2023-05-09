@@ -4,12 +4,22 @@ namespace FCSharp.MyM;
 public class MenorMayor{
    public void main(){
         //Aqui
-        int[] numeros = new int[100];
-        int mayor = numeros[0];
-        int menor = numeros[0];
-        int cont=0;
+        
 
-        while(true){
+        int cont=0;
+        
+        Console.WriteLine("Introduce los números separados por comas:");
+        string? numerosStr = Console.ReadLine();
+        string?[] numeros = numerosStr.Split(',');
+        int[] numerosInt = new int[numeros.Length];
+         for (int i = 0; i < numeros.Length; i++)
+        {
+            numerosInt[i] = int.Parse(numeros[i]);
+        }
+
+        int mayor = numerosInt[0];
+        int menor = numerosInt[0];
+        /*while(true){
             Write("Ingrese un numero entero positivo a la lista, introduzca un numero negativo para terminar: ");
             int num=Convert.ToInt32(ReadLine());
             if(num<0){
@@ -17,15 +27,12 @@ public class MenorMayor{
             }else{
                 numeros[cont]=num;
 
-                if(cont==0){
-                    mayor = numeros[0];
-                    menor = numeros[0];
-                }
-                
+
                 cont++;
-            }
-        }        
-        foreach (int numero in numeros)
+            }*/
+            
+              
+        foreach (int numero in numerosInt)
         {
            
             if (numero > mayor)
