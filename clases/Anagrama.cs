@@ -10,7 +10,10 @@ public class Anagrama{
             palabra1=ReadLine();
         Write("Ingrese la segunda palabra: ");
             palabra2=ReadLine();
-        
+         if(palabra1==null || palabra2==null){
+                WriteLine("Nombre invalido");
+                return;
+        }
         char[] letras1 = palabra1.ToLower().ToCharArray();
         char[] letras2 = palabra2.ToLower().ToCharArray();
 

@@ -9,12 +9,22 @@ public class MediaLista{
        
         Console.WriteLine("Introduce los números separados por comas:");
         string? numerosStr = Console.ReadLine();
-        string?[] numeros = numerosStr.Split(',');
+        if (numerosStr == null){
+            WriteLine("Numero invalido");
+            return;
+        }
+        string?[] numeros ;
+        numeros = numerosStr.Split(',');
+        if (numeros == null){
+            WriteLine("Numero invalido");
+            return;
+        }
         int[] numerosInt = new int[numeros.Length];
          for (int i = 0; i < numeros.Length; i++)
         {
-            numerosInt[i] = int.Parse(numeros[i]);
+            int.TryParse(numeros[i], out numerosInt[i]);
         }
+
 
         media= numerosInt.Average();
 
