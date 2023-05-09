@@ -5,7 +5,7 @@ public class Anagrama{
     public void main(){
 
         string? palabra1;
-        string? palabra2 = "amor";
+        string? palabra2;
         Write("Ingrese la primera palabra: ");
             palabra1=ReadLine();
         Write("Ingrese la segunda palabra: ");
